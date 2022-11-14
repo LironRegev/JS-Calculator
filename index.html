@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcualtor</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="nums">
+        <section>
+          <input class="firstInput" type="number" />
+        </section>
+        <section>
+          <select class="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+            <!-- <option value="^">^</option> -->
+          </select>
+        </section>
+        <section>
+          <input class="secondInput" type="number" />
+        </section>
+        <section class="keypad-btns">
+          <button type="button" class="fun_btn" id="calculate" value="">
+            =
+          </button>
+        </section>
+      </div>
+
+      <section id="Display-area">
+        <div class="answer">0</div>
+      </section>
+    </div>
+  </body>
+</html>
